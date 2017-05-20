@@ -9,6 +9,7 @@ connections = [];
 server.listen(3000);
 console.log('Server is running...');
 
+app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
 	res.sendFile(__dirname + '/index.html');
 });

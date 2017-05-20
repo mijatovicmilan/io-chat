@@ -1,0 +1,24 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+}
+div#userFormArea {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+input.btn.btn-primary {
+    width: 100%;
+}
+#messageArea {
+	display: none;
+}
+#userFormArea label {
+    color: #fff;
+    margin-bottom: 15px;
+}
+#userForm .form-group {
+    text-align: center;
+}
